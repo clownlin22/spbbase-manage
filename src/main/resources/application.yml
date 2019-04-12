@@ -1,0 +1,16 @@
+server:
+  port: 8088
+swagger:
+  enabled: true
+  base-package: cn.superbio.spbbase.upc.controller
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spbbase?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: lin123
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      validation-query: SELECT 1
+
+
